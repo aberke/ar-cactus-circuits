@@ -15,6 +15,8 @@
 		A81111122198AAD70012849C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A81111102198AAD70012849C /* LaunchScreen.storyboard */; };
 		A811111D2198AAD70012849C /* cacti_mirrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A811111C2198AAD70012849C /* cacti_mirrorTests.swift */; };
 		A81111282198AAD70012849C /* cacti_mirrorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81111272198AAD70012849C /* cacti_mirrorUITests.swift */; };
+		A8E3FC462198E54B008A3D95 /* tree.scn in Resources */ = {isa = PBXBuildFile; fileRef = A8E3FC402198E54B008A3D95 /* tree.scn */; };
+		A8E3FC472198E54B008A3D95 /* tree.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E3FC412198E54B008A3D95 /* tree.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		A81111232198AAD70012849C /* cacti-mirrorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cacti-mirrorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A81111272198AAD70012849C /* cacti_mirrorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cacti_mirrorUITests.swift; sourceTree = "<group>"; };
 		A81111292198AAD70012849C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8E3FC402198E54B008A3D95 /* tree.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = tree.scn; sourceTree = "<group>"; };
+		A8E3FC412198E54B008A3D95 /* tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		A81111042198AAD50012849C /* cacti-mirror */ = {
 			isa = PBXGroup;
 			children = (
+				A8E3FC382198E525008A3D95 /* 3D Models */,
 				A81111052198AAD50012849C /* AppDelegate.swift */,
 				A81111072198AAD50012849C /* art.scnassets */,
 				A81111092198AAD50012849C /* ViewController.swift */,
@@ -126,6 +131,24 @@
 				A81111292198AAD70012849C /* Info.plist */,
 			);
 			path = "cacti-mirrorUITests";
+			sourceTree = "<group>";
+		};
+		A8E3FC382198E525008A3D95 /* 3D Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8E3FC3F2198E54B008A3D95 /* Tree */,
+			);
+			name = "3D Models";
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		A8E3FC3F2198E54B008A3D95 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				A8E3FC402198E54B008A3D95 /* tree.scn */,
+				A8E3FC412198E54B008A3D95 /* tree.png */,
+			);
+			path = Tree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +255,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8E3FC462198E54B008A3D95 /* tree.scn in Resources */,
+				A8E3FC472198E54B008A3D95 /* tree.png in Resources */,
 				A81111082198AAD50012849C /* art.scnassets in Resources */,
 				A81111122198AAD70012849C /* LaunchScreen.storyboard in Resources */,
 				A811110F2198AAD70012849C /* Assets.xcassets in Resources */,

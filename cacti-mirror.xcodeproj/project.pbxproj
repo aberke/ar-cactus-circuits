@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A81111062198AAD50012849C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81111052198AAD50012849C /* AppDelegate.swift */; };
+		A81111082198AAD50012849C /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A81111072198AAD50012849C /* art.scnassets */; };
+		A811110A2198AAD50012849C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81111092198AAD50012849C /* ViewController.swift */; };
+		A811110D2198AAD50012849C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A811110B2198AAD50012849C /* Main.storyboard */; };
+		A811110F2198AAD70012849C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A811110E2198AAD70012849C /* Assets.xcassets */; };
+		A81111122198AAD70012849C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A81111102198AAD70012849C /* LaunchScreen.storyboard */; };
+		A811111D2198AAD70012849C /* cacti_mirrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A811111C2198AAD70012849C /* cacti_mirrorTests.swift */; };
+		A81111282198AAD70012849C /* cacti_mirrorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81111272198AAD70012849C /* cacti_mirrorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A81111192198AAD70012849C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A81110FA2198AAD50012849C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A81111012198AAD50012849C;
+			remoteInfo = "cacti-mirror";
+		};
+		A81111242198AAD70012849C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A81110FA2198AAD50012849C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A81111012198AAD50012849C;
+			remoteInfo = "cacti-mirror";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A81111022198AAD50012849C /* cacti-mirror.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cacti-mirror.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A81111052198AAD50012849C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A81111072198AAD50012849C /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		A81111092198AAD50012849C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A811110C2198AAD50012849C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A811110E2198AAD70012849C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A81111112198AAD70012849C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A81111132198AAD70012849C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A81111182198AAD70012849C /* cacti-mirrorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cacti-mirrorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A811111C2198AAD70012849C /* cacti_mirrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cacti_mirrorTests.swift; sourceTree = "<group>"; };
+		A811111E2198AAD70012849C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A81111232198AAD70012849C /* cacti-mirrorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cacti-mirrorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A81111272198AAD70012849C /* cacti_mirrorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cacti_mirrorUITests.swift; sourceTree = "<group>"; };
+		A81111292198AAD70012849C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A81110FF2198AAD50012849C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A81111152198AAD70012849C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A81111202198AAD70012849C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A81110F92198AAD50012849C = {
+			isa = PBXGroup;
+			children = (
+				A81111042198AAD50012849C /* cacti-mirror */,
+				A811111B2198AAD70012849C /* cacti-mirrorTests */,
+				A81111262198AAD70012849C /* cacti-mirrorUITests */,
+				A81111032198AAD50012849C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A81111032198AAD50012849C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A81111022198AAD50012849C /* cacti-mirror.app */,
+				A81111182198AAD70012849C /* cacti-mirrorTests.xctest */,
+				A81111232198AAD70012849C /* cacti-mirrorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A81111042198AAD50012849C /* cacti-mirror */ = {
+			isa = PBXGroup;
+			children = (
+				A81111052198AAD50012849C /* AppDelegate.swift */,
+				A81111072198AAD50012849C /* art.scnassets */,
+				A81111092198AAD50012849C /* ViewController.swift */,
+				A811110B2198AAD50012849C /* Main.storyboard */,
+				A811110E2198AAD70012849C /* Assets.xcassets */,
+				A81111102198AAD70012849C /* LaunchScreen.storyboard */,
+				A81111132198AAD70012849C /* Info.plist */,
+			);
+			path = "cacti-mirror";
+			sourceTree = "<group>";
+		};
+		A811111B2198AAD70012849C /* cacti-mirrorTests */ = {
+			isa = PBXGroup;
+			children = (
+				A811111C2198AAD70012849C /* cacti_mirrorTests.swift */,
+				A811111E2198AAD70012849C /* Info.plist */,
+			);
+			path = "cacti-mirrorTests";
+			sourceTree = "<group>";
+		};
+		A81111262198AAD70012849C /* cacti-mirrorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A81111272198AAD70012849C /* cacti_mirrorUITests.swift */,
+				A81111292198AAD70012849C /* Info.plist */,
+			);
+			path = "cacti-mirrorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A81111012198AAD50012849C /* cacti-mirror */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A811112C2198AAD70012849C /* Build configuration list for PBXNativeTarget "cacti-mirror" */;
+			buildPhases = (
+				A81110FE2198AAD50012849C /* Sources */,
+				A81110FF2198AAD50012849C /* Frameworks */,
+				A81111002198AAD50012849C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cacti-mirror";
+			productName = "cacti-mirror";
+			productReference = A81111022198AAD50012849C /* cacti-mirror.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A81111172198AAD70012849C /* cacti-mirrorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A811112F2198AAD70012849C /* Build configuration list for PBXNativeTarget "cacti-mirrorTests" */;
+			buildPhases = (
+				A81111142198AAD70012849C /* Sources */,
+				A81111152198AAD70012849C /* Frameworks */,
+				A81111162198AAD70012849C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A811111A2198AAD70012849C /* PBXTargetDependency */,
+			);
+			name = "cacti-mirrorTests";
+			productName = "cacti-mirrorTests";
+			productReference = A81111182198AAD70012849C /* cacti-mirrorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A81111222198AAD70012849C /* cacti-mirrorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A81111322198AAD70012849C /* Build configuration list for PBXNativeTarget "cacti-mirrorUITests" */;
+			buildPhases = (
+				A811111F2198AAD70012849C /* Sources */,
+				A81111202198AAD70012849C /* Frameworks */,
+				A81111212198AAD70012849C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A81111252198AAD70012849C /* PBXTargetDependency */,
+			);
+			name = "cacti-mirrorUITests";
+			productName = "cacti-mirrorUITests";
+			productReference = A81111232198AAD70012849C /* cacti-mirrorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A81110FA2198AAD50012849C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = aberke;
+				TargetAttributes = {
+					A81111012198AAD50012849C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A81111172198AAD70012849C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A81111012198AAD50012849C;
+					};
+					A81111222198AAD70012849C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A81111012198AAD50012849C;
+					};
+				};
+			};
+			buildConfigurationList = A81110FD2198AAD50012849C /* Build configuration list for PBXProject "cacti-mirror" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A81110F92198AAD50012849C;
+			productRefGroup = A81111032198AAD50012849C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A81111012198AAD50012849C /* cacti-mirror */,
+				A81111172198AAD70012849C /* cacti-mirrorTests */,
+				A81111222198AAD70012849C /* cacti-mirrorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A81111002198AAD50012849C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A81111082198AAD50012849C /* art.scnassets in Resources */,
+				A81111122198AAD70012849C /* LaunchScreen.storyboard in Resources */,
+				A811110F2198AAD70012849C /* Assets.xcassets in Resources */,
+				A811110D2198AAD50012849C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A81111162198AAD70012849C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A81111212198AAD70012849C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A81110FE2198AAD50012849C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A811110A2198AAD50012849C /* ViewController.swift in Sources */,
+				A81111062198AAD50012849C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A81111142198AAD70012849C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A811111D2198AAD70012849C /* cacti_mirrorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A811111F2198AAD70012849C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A81111282198AAD70012849C /* cacti_mirrorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A811111A2198AAD70012849C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A81111012198AAD50012849C /* cacti-mirror */;
+			targetProxy = A81111192198AAD70012849C /* PBXContainerItemProxy */;
+		};
+		A81111252198AAD70012849C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A81111012198AAD50012849C /* cacti-mirror */;
+			targetProxy = A81111242198AAD70012849C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A811110B2198AAD50012849C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A811110C2198AAD50012849C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A81111102198AAD70012849C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A81111112198AAD70012849C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A811112A2198AAD70012849C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A811112B2198AAD70012849C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A811112D2198AAD70012849C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z68C3ND9V7;
+				INFOPLIST_FILE = "cacti-mirror/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aberke.cacti-mirror";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A811112E2198AAD70012849C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z68C3ND9V7;
+				INFOPLIST_FILE = "cacti-mirror/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aberke.cacti-mirror";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A81111302198AAD70012849C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z68C3ND9V7;
+				INFOPLIST_FILE = "cacti-mirrorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aberke.cacti-mirrorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cacti-mirror.app/cacti-mirror";
+			};
+			name = Debug;
+		};
+		A81111312198AAD70012849C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z68C3ND9V7;
+				INFOPLIST_FILE = "cacti-mirrorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aberke.cacti-mirrorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cacti-mirror.app/cacti-mirror";
+			};
+			name = Release;
+		};
+		A81111332198AAD70012849C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z68C3ND9V7;
+				INFOPLIST_FILE = "cacti-mirrorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aberke.cacti-mirrorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cacti-mirror";
+			};
+			name = Debug;
+		};
+		A81111342198AAD70012849C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z68C3ND9V7;
+				INFOPLIST_FILE = "cacti-mirrorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aberke.cacti-mirrorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cacti-mirror";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A81110FD2198AAD50012849C /* Build configuration list for PBXProject "cacti-mirror" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A811112A2198AAD70012849C /* Debug */,
+				A811112B2198AAD70012849C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A811112C2198AAD70012849C /* Build configuration list for PBXNativeTarget "cacti-mirror" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A811112D2198AAD70012849C /* Debug */,
+				A811112E2198AAD70012849C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A811112F2198AAD70012849C /* Build configuration list for PBXNativeTarget "cacti-mirrorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A81111302198AAD70012849C /* Debug */,
+				A81111312198AAD70012849C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A81111322198AAD70012849C /* Build configuration list for PBXNativeTarget "cacti-mirrorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A81111332198AAD70012849C /* Debug */,
+				A81111342198AAD70012849C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A81110FA2198AAD50012849C /* Project object */;
+}

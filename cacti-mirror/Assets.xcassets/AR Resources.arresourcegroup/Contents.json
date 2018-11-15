@@ -5,10 +5,7 @@
   },
   "resources" : [
     {
-      "filename" : "lego-cactus-board-for-ar.arreferenceimage"
-    },
-    {
-      "filename" : "lego-cactus-board-top.arreferenceimage"
+      "filename" : "full-board.arreferenceimage"
     }
   ]
 }

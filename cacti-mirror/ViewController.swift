@@ -5,12 +5,13 @@
 //  Created by Alexandra Berke on 11/11/18.
 //  Copyright © 2018 aberke. All rights reserved.
 //
-// Refer to:
-// https://developer.apple.com/documentation/arkit/building_your_first_ar_experience
 
 import UIKit
 import SceneKit
 import ARKit
+
+// Toggle debug variable to true to show detected plane.
+var debug = false
 
 
 class ViewController: UIViewController {
@@ -78,7 +79,6 @@ class ViewController: UIViewController {
         sceneView.session.run(configuration, options: options)
         label.text = "searching for circuits"
     }
-    
 }
 
 extension ViewController: ARSCNViewDelegate {
@@ -92,31 +92,26 @@ extension ViewController: ARSCNViewDelegate {
         // Get the anchor
         guard let imageAnchor = anchor as? ARImageAnchor else { return }
         let referenceImage = imageAnchor.referenceImage
-        
         // ----- Debugging plane ---------------
-        let debugPlaneNode = getPlaneNode(withReferenceImage: referenceImage)
-        node.addChildNode(debugPlaneNode)
+        if (debug) {
+            let debugPlaneNode = getDebugPlaneNode(withReferenceImage: referenceImage)
+            node.addChildNode(debugPlaneNode)
+        }
         // ----- Debugging plane ---------------
-        
         let scene = SCNScene(named: "art.scnassets/cactus.scn")!
         let cactusNode = scene.rootNode.childNode(withName: "cactus", recursively: true)!
         let scaleFactor = 0.012
         cactusNode.scale = SCNVector3(scaleFactor, scaleFactor, scaleFactor)
         cactusNode.opacity = 1
         cactusNode.runAction(self.fadeAndSpinAction)
-
         // Add the cactus node to the scene
         node.addChildNode(cactusNode)
-        
-        // TODO: follow the image anchor smoothly as it moves
-        // https://hackernoon.com/arkit-tutorial-image-recognition-and-virtual-content-transform-91484ceaf5d5
-        
         DispatchQueue.main.async {
             self.label.text = "cacti detected"
         }
     }
-    
-    func getPlaneNode(withReferenceImage image: ARReferenceImage) -> SCNNode {
+
+    func getDebugPlaneNode(withReferenceImage image: ARReferenceImage) -> SCNNode {
         // Create a plane to visualize the initial position of the detected image.
         let plane = SCNPlane(width: image.physicalSize.width,
                              height: image.physicalSize.height)

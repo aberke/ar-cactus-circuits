@@ -5,6 +5,9 @@
   },
   "resources" : [
     {
+      "filename" : "board-darker.arreferenceimage"
+    },
+    {
       "filename" : "full-board.arreferenceimage"
     }
   ]

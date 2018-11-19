@@ -22,6 +22,8 @@ class ViewController: UIViewController {
     let fadeDuration: TimeInterval = 0.3
     let rotateDuration: TimeInterval = 3
     
+    var cactusFound: Bool = false
+    
     lazy var fadeAndSpinAction: SCNAction = {
         return .sequence([
             .fadeIn(duration: fadeDuration),
@@ -77,6 +79,7 @@ class ViewController: UIViewController {
         configuration.detectionImages = referenceImages
         let options: ARSession.RunOptions = [.resetTracking, .removeExistingAnchors]
         sceneView.session.run(configuration, options: options)
+        self.cactusFound = false
         label.text = "searching for circuits"
     }
 }
@@ -90,6 +93,11 @@ extension ViewController: ARSCNViewDelegate {
     // estimate of the plane’s position.
     func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
         // Get the anchor
+        if (self.cactusFound) {
+            return
+        }
+        self.cactusFound = true
+        
         guard let imageAnchor = anchor as? ARImageAnchor else { return }
         let referenceImage = imageAnchor.referenceImage
         // ----- Debugging plane ---------------
